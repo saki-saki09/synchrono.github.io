@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/64d58efce2.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.css"
+		/>
+		<title>SCR</title>
+	</head>
+	<body>
+		<!-- Navigation Bar Start -->
+		<nav class="navigation">
+			<div class="scr-logo">
+				<h1><a href="./index.html">SCR</a></h1>
+			</div>
+			<div class="menu-bar">
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./auth.html">Sign in</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Navigation Bar End -->
+		<div class="container">
+			<div class="forms-container">
+				<div class="signin-signup">
+					<form action="#" class="sign-in-form">
+						<h1 style="font-size: 50px">Welcome Back!</h1>
+						<h2 class="title">Let's Sign In</h2>
+						<div class="input-field">
+							<i class="fas fa-user"></i>
+							<input
+								type="text"
+								placeholder="Username or email"
+							/>
+						</div>
+						<div class="input-field">
+							<i class="fas fa-lock"></i>
+							<input type="password" placeholder="Password" />
+						</div>
+						<input type="submit" value="SIGN IN" class="btn" />
+						<a
+							href="https://discord.gg/4QREYHD9pX"
+							class="reset-pass"
+							target="_blank"
+						>
+							Forgot Password?
+						</a>
+					</form>
+					<form action="#" class="sign-up-form">
+						<h1 style="font-size: 50px">Hello Friend!</h1>
+						<h2 class="title">Let's Sign Up</h2>
+						<div class="input-field">
+							<i class="fas fa-user"></i>
+							<input
+								type="text"
+								placeholder="Choose an username"
+							/>
+						</div>
+						<div class="input-field">
+							<i class="fas fa-envelope"></i>
+							<input
+								type="email"
+								placeholder="Enter your email"
+							/>
+						</div>
+						<div class="input-field">
+							<i class="fas fa-lock"></i>
+							<input
+								type="password"
+								placeholder="Choose a password"
+							/>
+						</div>
+						<input type="submit" class="btn" value="SIGN UP" />
+					</form>
+				</div>
+			</div>
+
+			<div class="panels-container">
+				<div class="panel left-panel">
+					<div class="content">
+						<h3>New here?</h3>
+						<p>Join the SCR team right now!</p>
+						<button class="btn transparent" id="sign-up-btn">
+							SIGN UP
+						</button>
+					</div>
+					<img
+						src="img/log.svg"
+						class="image"
+						alt="A man launching SCR rocket"
+					/>
+				</div>
+				<div class="panel right-panel">
+					<div class="content">
+						<h3>Already have an account?</h3>
+						<p>Sign in to say Hi to your SCR buddies!</p>
+						<button class="btn transparent" id="sign-in-btn">
+							SIGN IN
+						</button>
+					</div>
+					<img
+						src="img/register.svg"
+						class="image"
+						alt="An woman looking through SCR website"
+					/>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+	<!-- Footer Start -->
+	<footer
+		style="
+			background-color: #333333;
+			font-family: cascadia code;
+			color: azure;
+			text-align: center;
+			font-size: 20px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+		"
+	>
+		<strong>©SCR 2021</strong>
+		<br />All rights reserved.
+		<div class="menu-bar">
+			<ul>
+				<li id="fab">
+					<a
+						href="https://www.facebook.com/SCR.synchronicallyreliable"
+						><i class="fab fa-facebook"></i
+					></a>
+				</li>
+				<li id="fab">
+					<a
+						href="https://www.instagram.com/scr.synchronicallyreliable/"
+						><i class="fab fa-instagram"></i
+					></a>
+				</li>
+				<li id="fab">
+					<a href="https://discord.gg/4QREYHD9pX"
+						><i class="fab fa-discord"></i
+					></a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+	<!-- Footer End -->
+</html>

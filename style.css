@@ -10,6 +10,73 @@ body,
 input {
 	font-family: "Poppins", sans-serif;
 }
+.navigation {
+	background-color: tomato;
+	padding: 5px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.scr-logo {
+	float: left;
+	font-size: 22px;
+	font-family: "cascadia code";
+}
+
+.scr-logo a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.menu-bar {
+	float: middle;
+}
+
+.menu-bar ul li {
+	display: inline-flex;
+	list-style: none;
+}
+
+.menu-bar li {
+	background-color: #0099cc;
+	margin: 5px;
+	padding: 5px;
+}
+
+.menu-bar li:hover {
+	background-color: #ff9900;
+	transition: 0.5s;
+}
+
+.fa-facebook {
+	padding: 3px;
+	margin: none;
+	border-radius: 50%;
+	background-color: #1ad1ff;
+}
+
+.fa-instagram {
+	padding: 3px;
+	margin: none;
+	border-radius: 5px;
+	background-color: #ff1a8c;
+}
+
+.fa-discord {
+	background-color: #385caa;
+	padding: 3px;
+	margin: none;
+	border-radius: 2px;
+}
+
+.menu-bar a {
+	text-decoration: none;
+	color: white;
+}
+
+#fab {
+	background: transparent;
+}
 
 .container {
 	position: relative;
@@ -33,7 +100,7 @@ input {
 	transform: translate(-50%, -50%);
 	left: 75%;
 	width: 50%;
-	transition: 1s 0.7s ease-in-out;
+	transition: 1.3s 0.5s ease-in-out;
 	display: grid;
 	grid-template-columns: 1fr;
 	z-index: 5;
@@ -242,6 +309,16 @@ form.sign-in-form {
 
 .container.sign-up-mode .right-panel {
 	pointer-events: all;
+}
+
+.reset-pass {
+	color: #eb4444;
+	text-decoration: solid;
+	transition: 0.2s;
+}
+
+.reset-pass:hover {
+	color: #0084ff;
 }
 
 @media (max-width: 870px) {
